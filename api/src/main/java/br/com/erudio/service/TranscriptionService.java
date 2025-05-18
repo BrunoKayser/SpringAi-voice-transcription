@@ -35,7 +35,7 @@ public class TranscriptionService {
 
     public String transcribeAudio(MultipartFile file) throws IOException {
         System.out.println("Iniciando a transcrição do áudio.");
-        File tempFile = File.createTempFile("audio", ".mp3");
+        File tempFile = File.createTempFile("audio", ".mp3");// A extensão pode ser qualquer outro tipo
         file.transferTo(tempFile);
 
         OpenAiAudioTranscriptionOptions transcriptionOptions = OpenAiAudioTranscriptionOptions //Classe para configuração da transcrição
