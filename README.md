@@ -5,7 +5,7 @@ Este repositório contém uma aplicação completa (backend + frontend) desenvol
 ### Backend:
   - Java 21
   - Spring Web – Exposição de endpoints REST
-  - Spring AI – Integração com modelo da OpenAI
+  - Spring AI – Integração com modelo da OpenAI (OpenAiAudioApi)
 
 ### Frontend:
   - React
